@@ -6,7 +6,7 @@ const Data = function(props) {
 };
 
 const Row = function(props) {
-  const {row} = props;
+  const { row } = props;
   return (
     <tr>
       {row.map(element => (
@@ -17,7 +17,7 @@ const Row = function(props) {
 };
 
 const Body = function(props) {
-  const {grid} = props;
+  const { grid } = props;
   return (
     <tbody>
       {grid.map(row => (
